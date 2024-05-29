@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Banner from './Banner';
+import MainPageAbout from './MainPageAbout';
 
 function App() {
   return (
-    <div className="App">
-     <p className='text-red-600'>PORTFOLIO WEBSITE</p>
-    </div>
+    <>
+    <Navbar />
+    <Banner />
+    <MainPageAbout />
+    </>
   );
 }
 
